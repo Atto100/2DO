@@ -1,15 +1,25 @@
 
 
     body {
+    
     background-size: cover;
-    background-position: center;
-    background: #fff;
+    background: linear-gradient(#2e1e5a, white);
+    background-repeat: no-repeat;
+    margin: 100px auto;
+    }
+
+    .container {
+    
+    display: block;
+   
+    margin: 250px auto;
+    background-color: #fff;
     border-radius: 12px;
     box-shadow: 0 20px 5px rgba(79,70,229,0.3); /* lila shadow */
     padding: 20px;
     width: 90%;
     max-width: 500px;
-    margin: 100px auto;
+    font-size: large;
     animation: bodyanim 2s forwards;
     }
 
@@ -44,6 +54,8 @@
     color: white;
     border: none;
     padding: 10px 15px;
+    width: 100px;
+   
     border-radius: 8px;
     cursor: pointer;
     transition: 0.2s;
@@ -70,25 +82,18 @@
     margin-bottom: 20px;
     text-decoration: underline;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    animation: headeranim 2s forwards;
     
     }
 
-    @keyframes headeranim {
-       from{opacity: 0%;}
-       
-       to{opacity: 100%;}
-    }
+ 
 
-
-    main , ul{
+    main , ul {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     width: 80%;           
     max-width: 300px;     
     margin: 50px auto; 
     background: #4338ca;     /* bakgrund för att se “storleken” */
     color: white;
-    border-radius: 12px;  /* rundade hörn */
     box-shadow: 0 10px 25px rgba(0,0,0,0.1); /* snygg skugga */
     display: block;
     list-style-position: inside;
@@ -98,6 +103,7 @@
     }
 
     li {
+    
     text-align: center;
     cursor: pointer;
     margin: 5px 0;
